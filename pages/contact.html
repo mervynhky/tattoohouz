@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Hazel">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="../img/icon.ico">
+    <title>Contact - Tattoo Houz</title>
+
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/centerpage.css" rel="stylesheet">
+    <link href="../css/font-awesome.min.css" rel="stylesheet">
+    <link href="../css/opensans.css" rel="stylesheet" type="text/css">
+    <link href="../css/josefinslab.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="brand"><img src="../img/masthead.png"></div>
+    <div class="address-bar">18 Jalan 12/1 K | Subang Jaya, SG 47500 | 016 111 610</div>
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="../index.html">Tattoo Houz</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <div class="col-lg-4">
+                            <img id="homeB" src="../img/home.png" onmouseover="this.src='../img/homesel.png'" onmouseout="this.src='../img/home.png'" onclick="homePage1()">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="col-lg-4">
+                            <img id="aboutB" src="../img/about.png" onmouseover="this.src='../img/aboutsel.png'" onmouseout="this.src='../img/about.png'" onclick="aboutPage1()">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="col-lg-4">
+                            <img id="galleryB" src="../img/gallery.png" onmouseover="this.src='../img/gallerysel.png'" onmouseout="this.src='../img/gallery.png'" onclick="galleryPage1()">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="col-lg-4">
+                            <img id="contactB" src="../img/contact.png" onmouseover="this.src='../img/contactsel.png'" onmouseout="this.src='../img/contact.png'" onclick="contactPage1()">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">Contact
+                        <strong>tattoo houz</strong>
+                    </h2>
+                    <hr>
+                </div>
+                <div class="col-md-8">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3457.0445703563655!2d-95.56209608488713!3d29.949396581917025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640cdffdedbd00d%3A0xcd09ac10c1ec0ea7!2sHouz+of+Ink!5e0!3m2!1sen!2s!4v1481092432554" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+                <div class="col-md-4">
+                    <p>Phone:<br>
+                        <strong>016 111 610</strong>
+                    </p>
+                    <p>Email:<br>
+                        <strong><a href="mailto:houze@tattoo.com">tattoohouz@tattoos.com</a></strong>
+                    </p>
+                    <p>Address:<br>
+                        <strong>18 Jalan 12/1 K
+                            <br>Subang Jaya, SG 47500</strong>
+                    </p>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">Contact
+                        <strong>form</strong>
+                    </h2>
+                    <hr>
+                    <div class="text-center">
+                        <p>For any inquiries, please fill up your details below and we will get back to you as soon as possible.</p>
+                    </div>
+                    <form role="form">
+                        <div class="row">
+                            <div class="form-group col-lg-4">
+                                <label>Name</label>
+                                <input type="text" id="form-name" class="form-control" placeholder="Johnny Depp">
+                            </div>
+                            <div class="form-group col-lg-4">
+                                <label>Email Address</label>
+                                <input type="email" id="form-email" class="form-control" placeholder="johndepp@email.com">
+                            </div>
+                            <div class="form-group col-lg-4">
+                                <label>Phone Number</label>
+                                <input type="number" id="form-number" class="form-control" placeholder="0123456789">
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="form-group col-lg-12">
+                                <label>Message</label>
+                                <textarea class="form-control" rows="6" placeholder="Your message here."></textarea>
+                            </div>
+                            <div class="form-group col-lg-12">
+                                <input type="hidden" name="save" value="contact">
+                                <button type="submit" class="btn btn-default" onclick="validateForm()">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div style="padding-top:2em; letter-spacing: 2px;">
+                        <a href="http://www.facebook.com"><i class="fa fa-facebook-square fa-3x"></i></a>&nbsp;
+                        <a href="http://www.twitter.com"><i class="fa fa-twitter-square fa-3x"></i></a>&nbsp;
+                        <a href="http://www.instagram.com"><i class="fa fa-instagram fa-3x"></i></a>&nbsp;
+                        <a href="http://www.foursquare.com"><i class="fa fa-foursquare fa-3x"></i></a>
+                    </div>
+                    <h3>Copyright &copy; Tattoo Houz 2016</h3>
+                    <hr class="tagline-divider">
+                    <h2>
+                        <small>
+                            Designed and Published by
+                        </small>
+                        <br>
+                        <strong>
+                            <a href="mailto:info@example.com">Hazel Wang</a>
+                        </strong>
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/tattoo.js"></script>
+</body>
+</html>
