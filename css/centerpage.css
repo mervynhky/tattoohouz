@@ -215,3 +215,22 @@ footer p {
         clear: both;
     }
 }
+
+/*BACK-TO=TOP*/
+
+a.back-to-top {
+    display: none;
+    width: 60px;
+    height: 60px;
+    text-indent: -9999px;
+    position: fixed;
+    z-index: 999;
+    right: 20px;
+    bottom: 20px;
+    padding-top:10px;
+    background: rgba(255,255,255,0.75) url("../img/arrowup.png") no-repeat center 50%;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    border: 1px solid rgba(0,0,0,0.5);
+}
